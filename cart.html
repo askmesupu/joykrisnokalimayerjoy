@@ -1,0 +1,61 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - HourGlass</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sidebar -->
+    <div id="sidebar" class="sidebar">
+        <ul class="sidebar-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="#" id="top-selling-link">Top Selling</a></li>
+            <li><a href="#" id="men-link">Men</a></li>
+            <li><a href="#" id="women-link">Women</a></li>
+            <li><a href="#" id="popular-link">Popular</a></li>
+            <li><a href="https://www.facebook.com/hourglass" target="_blank">Developer Contact</a></li>
+        </ul>
+    </div>
+    <div id="sidebar-toggle" class="sidebar-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div><header class="header">
+    <img src="https://i.ibb.co/MD4g4YFS/resize-1762250039179255336320251104154152.jpg" alt="HourGlass Logo" class="logo">
+    <h1 class="hourglass-font">HourGlass</h1>
+</header>
+
+<section class="cart-section">
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <div class="cart-options">
+        <label for="delivery">Delivery Charge:</label>
+        <select id="delivery">
+            <option value="70">Inside Dhaka (70 BDT)</option>
+            <option value="100">Outside Dhaka (100 BDT)</option>
+        </select>
+
+        <label for="payment">Payment Method:</label>
+        <select id="payment">
+            <option value="COD">Cash on Delivery</option>
+            <option value="Bkash">Bkash</option>
+        </select>
+
+        <label for="coupon">Coupon Code:</label>
+        <input type="text" id="coupon" placeholder="Enter code">
+
+        <button id="apply-coupon">Apply</button>
+        <button id="proceed-order">Proceed to Order</button>
+    </div>
+    <p>Total Amount: <span id="total-amount">0</span> BDT</p>
+</section>
+
+<footer>
+    <p class="footer-text">Developed by <strong>Supto</strong></p>
+</footer>
+
+<script src="script.js"></script><script src="watch.js"></script></body>
+</html>
