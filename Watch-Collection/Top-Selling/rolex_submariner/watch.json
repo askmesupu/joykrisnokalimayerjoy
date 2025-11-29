@@ -1,0 +1,13 @@
+{
+"category": "Top-Selling",
+"folder": "rolex_submariner",
+"name": "Rolex Submariner",
+"price": 120000,
+"discount": 5,
+"description": "Luxury diver watch with iconic design and durability.",
+"images": [
+"https://i.ibb.co/example1/rolex1.jpg",
+"https://i.ibb.co/example2/rolex2.jpg",
+"https://i.ibb.co/example3/rolex3.jpg"
+]
+}
